@@ -1,0 +1,74 @@
+[
+    {
+        "feature_name": "",
+        "azdome": "<a href=''><img class='dashcam-image' src='images/dashcams/azdome-g70.png' alt='azdome g70'/>",
+        "wr1": "<a href=''><img class='dashcam-image'  src='images/dashcams/viofo-wr1.png'/></a>",
+        "xiaomi_yi": "<a href=''><img class='dashcam-image'  src='images/dashcams/xiaomi-yi.png'/></a>",
+        "yi_ultra": "<a href=''><img class='dashcam-image'  src='images/dashcams/yi-ultra.png'/></a>"
+    },
+    {
+        "feature_name": "Supports the Comroads app?",
+        "azdome": "<span class='greentick'>✓</span>",
+        "wr1": "<span class='greentick'>✓</span>",
+        "xiaomi_yi": "<span class='greentick'>✓</span>",
+        "yi_ultra": "<span class='greentick'>✓</span>"
+    },
+    {
+        "feature_name": "Wifi speed",
+        "azdome": "Good",
+        "wr1": "Good",
+        "xiaomi_yi": "Good",
+        "yi_ultra": "<span class='greentick'>Very fast</span>"
+
+    },
+    {
+        "feature_name": "Battery or capacitor",
+        "azdome": "<span class='greentick'>Capacitor</span>",
+        "wr1": "<span class='greentick'>Capacitor</span>",
+        "xiaomi_yi": "<span class='redx'>Battery</span>",
+        "yi_ultra": "<span class='redx'>Battery</span>"
+    },
+    {
+        "feature_name": "Max resolution",
+        "azdome": "1080P",
+        "wr1": "1080P",
+        "xiaomi_yi": "1296P or 1080P60fps",
+        "yi_ultra": "1520P or 1080P60fps"
+    },
+    {
+        "feature_name": "Recording angle",
+        "azdome": "",
+        "wr1": "160°",
+        "xiaomi_yi": "160°",
+        "yi_ultra": "140°"
+    },
+    {
+        "feature_name": "Aperature",
+        "azdome": "",
+        "wr1": "F1.8",
+        "xiaomi_yi": "F1.8",
+        "yi_ultra": ""
+    },
+    {
+        "feature_name": "Material quality and resistance to heat",
+        "azdome": "",
+        "wr1": "<span class='greentick'>Good build. Great heat resistance</span>",
+        "xiaomi_yi": "Medoicre heat resistance. Has been known to lose focus after prolonged exposure to high temperature climate",
+        "yi_ultra": "Good heat resistance except for battery"
+    },
+    {
+        "feature_name": "Screen",
+        "azdome": "<span class='greentick'>✓<span>",
+        "wr1": "x",
+        "xiaomi_yi": "✓",
+        "yi_ultra": "✓"
+    },
+
+    {
+        "feature_name": "Buy",
+        "azdome": "",
+        "wr1": "<div class='buynow-en'><a right' href='https://ebay.to/2K8Cc9A' target='_blank'>$69.49 <img src='../images/ebay-icon.png'></a><br><a href='http://bit.ly/Viofo-WR1' target='_blank'>$68.49 <img src='../images/lightinthebox-icon.png'></a></div>",
+        "xiaomi_yi": "<div class='buynow-en'><a href='http://www.anrdoezrs.net/links/8126110/type/dlg/https://www.lightinthebox.com/p/xiaomi-yi-smart-car-dvr-wifi-camera-165-degree-dash-cam-1080p-60fps-2-7-inch-camcorder-for-android-ios_p4861616.html?prm=1.5.1.1' target='_blank'>$53.99 <img src='./images/lightinthebox-icon.png'></a><br><a href='http://s.click.aliexpress.com/e/UbqnmAA' target='_blank'>$54.99 <img src='./images/aliexpress-icon.png'></a></div>",
+        "yi_ultra": "<div class='buynow-en'><a href='https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575387135&campid=5338298019&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FYI-2-7K-Ultra-Dash-Camera-2-7-Wifi-Car-DVR-MEMS-3-axis-G-Sensor-Voice-Control%2F122801434787' target='_blank'>$86.40 <img src='./images/ebay-icon.png'></a><br><a href='http://s.click.aliexpress.com/e/UznybaM' target='_blank'>$99.99 <img src='./images/aliexpress-icon.png'></a></div>"
+    }
+]

@@ -1,0 +1,231 @@
+/*span {*/
+/*  display: inline-block;*/
+/*  vertical-align: middle;*/
+/*  color: white;*/
+/*}*/
+
+/*ul {*/
+/*  display: block;*/
+/*  list-style-type: none;*/
+/*  text-align: right;*/
+/*}*/
+
+/*a {*/
+/*  color: #FFF;*/
+/*}*/
+/*a:hover {*/
+/*  opacity: 0.7;*/
+/*}*/
+
+/*.menu {*/
+/*  margin: 0 20px 0 0;*/
+/*  padding-left: 1.25em;*/
+/*  cursor: pointer;*/
+/*  position: relative;*/
+/*  width: 30px;*/
+/*  height: 50px;*/
+/*  text-align: l;*/
+/*}*/
+
+/*.menu-close {*/
+/*  font-size: 0em;*/
+/*  opacity: 0;*/
+/*  text-align: center;*/
+/*  font-weight: bold;*/
+
+/*  -webkit-transition: 0.2s;*/
+/*          transition: 0.2s;*/
+/*}*/
+
+/*.menu-close-visible {*/
+/*  font-size: 2em;*/
+/*  opacity: 1;*/
+
+/*  -webkit-transition: 0.2s 0.4s;*/
+/*          transition: 0.2s 0.4s;*/
+/*}*/
+
+/*.menu-global {*/
+/*  z-index: -1;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  height: 3px; */
+/*  width: 50%;*/
+/*  background-color: black;*/
+
+/*  -webkit-backface-visibility: hidden;*/
+/*          backface-visibility: hidden;*/
+/*  -webkit-transition: 0.2s;*/
+/*          transition: 0.2s;*/
+/*}*/
+
+/*.menu-global:hover {*/
+/*  left: 10px;*/
+/*  -webkit-transition: all 0.2s;*/
+/*          transition: all 0.2s;*/
+/*}*/
+
+/*.menu-top {*/
+/*  top: 0;*/
+/*}*/
+/*.menu-middle {*/
+/*  top: 10px;*/
+/*}*/
+/*.menu-bottom {*/
+/*  top: 20px;*/
+/*}*/
+
+/*.menu-text{*/
+/*  opacity: 0;*/
+/*  font-size: 0em;*/
+/*  padding: 10px 0;*/
+/*  -webkit-transition: 0.1s;*/
+/*          transition: 0.1s;*/
+/*}*/
+
+/*.expand {*/
+/*  box-shadow: rgba(0, 0, 0, 0.1) -2.5px 5px 7.5px, rgba(0, 0, 0, 0.1) 2.5px 5px 7.5px;*/
+/*  width: 200px;*/
+/*  height: 50px;*/
+
+/*  -webkit-backface-visibility: hidden;*/
+/*          backface-visibility: hidden;*/
+/*}*/
+
+/*.menu-top-expand {*/
+/*  top: 50px;*/
+/*  background: #FFF8E1;*/
+
+/*  -webkit-transition: all 0.5s 0.2s, left 0.1s;*/
+/*          transition: all 0.5s 0.2s, left 0.1s;*/
+/*}*/
+
+/*.menu-middle-expand {*/
+/*  top: 100px;*/
+/*  background: #FFECB3;*/
+
+/*  -webkit-transition: all 0.5s 0.1s, left 0.1s;*/
+/*          transition: all 0.5s 0.1s, left 0.1s;*/
+/*}*/
+
+/*.menu-bottom-expand {*/
+/*  top: 150px;*/
+/*  height: 100px;*/
+/*  background: #FFE082;*/
+
+/*  -webkit-transition: all 0.5s, left 0.1s;*/
+/*          transition: all 0.5s, left 0.1s;*/
+/*}*/
+
+/*.menu-text-expand{*/
+/*  color: #000000;*/
+/*  opacity: 0.8;*/
+/*  padding: 10px;*/
+/*  font-size: 1.3em;*/
+/*  -webkit-transition: all 0.2s 0.7s, font-size 0.1s;*/
+/*          transition: all 0.2s 0.7s, font-size 0.1s;*/
+/*}*/
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+ul.menu > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+ul.submenu {
+display: none;
+    position: absolute;
+    width: 120px;
+    top: 57px;
+    right: 3.5vw;
+    /* left: -48px; */
+    background-color: #f8f8fc;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+
+
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.que > li {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+ul.que > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    height: auto;
+    background: #131e29;
+    border-radius: 10px 10px 0 0;   
+}
+ul.que > li > a:hover {
+    background-color: black;
+}
+ul.ques {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: white;
+}
+ul.ques > li {
+    display: block;
+}
+ul.ques > li > a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+ul.ques > li > a:hover {
+    text-decoration: underline;
+}
+ul.que > li:hover > ul.ques {
+    display: block;
+}

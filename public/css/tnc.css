@@ -1,0 +1,19 @@
+.content{
+    padding: 0.2em 0.3em 0.8em 0.8em;
+}
+
+.title{
+    font-weight: bold;
+}
+.decimal-title{
+    padding-top: 0.4em;
+    padding-bottom: 0.8em;
+}
+.content-decimal{
+    display: flex;
+    justify-content: align-left;
+    padding-left: 0.8em;
+}
+.decimal-text{
+    padding-left: 0.4em;
+}

@@ -1,0 +1,2 @@
+import scrapeexisting
+scrapeexisting.priceCheck()

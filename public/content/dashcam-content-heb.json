@@ -1,0 +1,35 @@
+[
+    {
+        "name": "<a href=''><img class='dashcam-image'  src='images/dashcams/azdome-g70.png'/>Azdome G70 </a>",
+        "support_app": "✓",
+        "wifi speed": "טובה",
+        "capacitor": "קבל",
+        "max_res": "1296p",
+        "screen": "✓",
+        "parking mode": "✓",
+        "price": "$70",
+        "additional": "כל מיני"
+    },
+    {
+        "name": "<a href=''><img class='dashcam-image'  src='images/dashcams/viofo-wr1.png'/>Viofo WR1</a>",
+        "wifi speed": "טובה",
+        "support_app": "✓",
+        "capacitor": "קבל",
+        "max_res": "1080p",
+        "screen": "x",
+        "parking mode": "ידני",
+        "price": "$70",
+        "additional": "כל מיני"
+    } ,
+    {
+        "name": "<a href=''><img class='dashcam-image'  src='images/dashcams/xiaomi-yi.png'/>Xiaomi Yi</a>",
+        "wifi speed": "טובה",
+        "support_app": "✓",
+        "capacitor": "בטריה",
+        "max_res": "1296p",
+        "screen": "✓",
+        "parking mode": "ללא",
+        "price": "$54",
+        "additional": "כל מיני"
+    }
+]

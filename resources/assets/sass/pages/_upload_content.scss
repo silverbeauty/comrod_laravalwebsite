@@ -1,0 +1,38 @@
+.Upload__Content {
+    .heading {
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $gray-lighter;
+        .nav {
+            padding-bottom: 0;
+        }
+    }
+    .sub-heading {
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        border-bottom: 1px solid $gray-lighter;
+    }
+    .form-group {
+        @media (min-width: $screen-md-min) {
+            //display: flex;
+            &.align-middle {
+                align-items: center;
+            }
+        }
+        > label {
+            text-align: right;
+        } 
+    }
+}
+
+.License__Plate {
+    > div {
+        margin-bottom: 30px;
+    }
+    > div:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+}

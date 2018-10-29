@@ -1,0 +1,68 @@
+API Key: wzsm9XrRWq3caJoQMSHSrvAllfQ7lzao4R97LWP6lIq2912tjHili3MLPHpZ
+
+Login
+    URL: http://comroads.com/mobile/api/login?q=(encrypted parameters here)
+    Paramenters:
+        - key
+        - username
+        - password
+
+Social Login
+    URL: http://comroads.com/mobile/api/social-login?q=(encrypted parameters here)
+    Parameters:
+        - key
+        - email
+
+Signup
+    URL: http://comroads.com/mobile/api/signup?q=(encrypted parameters here)
+    Parameters:
+        - key
+        - username
+        - email
+        - password
+        - country_code
+
+User Account Details
+    URL: http://comroads.com/mobile/api/account?q=(encrypted parameters here)
+    Parameters:
+        - key
+        - user_id
+
+License Plate Search
+    URL: http://comroads.com/mobile/api/search-by-plate?q=(encrypted parameters here)
+    Parameters:
+        - key
+        - plate
+
+Upload Video
+    URL: POST http://comroads.com/mobile/api/upload/video
+    Parameters:
+        - q (with the encrypted key) example: encrypt(key=api_key)
+        - video
+
+Upload Photo
+    URL: POST http://comroads.com/mobile/api/upload/photo
+    Parameters:
+        - q (with the encrypted key) example: encrypt(key=api_key)
+        - video
+
+Upload Content
+    URL: http://comroads.com/mobile/api/upload/content?q=(encrypted parameters here)
+    Parameters:
+        - key
+        - title
+        - description
+        - slug
+        - original_filename
+        - start_in_seconds
+        - country_code
+        - region_code
+        - latitude
+        - longitude
+        - offence_date
+        - ip
+        - embed_id
+        - embed_type
+        - disable_comments
+        - disable_map
+        - type

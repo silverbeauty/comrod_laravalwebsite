@@ -1,0 +1,9 @@
+[Thu Sep 20 2018 21:42:35 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:42:48 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:43:01 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:43:22 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:43:34 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:43:51 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:46:47 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:46:54 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg
+[Thu Sep 20 2018 21:46:59 GMT+0300 (FLE Summer Time)] Layer "Vector Smart Object.jpg": Duplicate path: Vector Smart Object.jpg

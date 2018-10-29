@@ -1,0 +1,27 @@
+.blogthumb{
+	max-width: 400px;
+}
+
+
+
+
+    .blogvideo {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 35px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .blogvideo iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+@media only screen and (min-width: 320px){
+
+}

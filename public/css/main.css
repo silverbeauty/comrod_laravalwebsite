@@ -1,0 +1,1388 @@
+.row{
+     margin-right: 0px;
+    margin-left: 0px;
+}
+@media screen and (max-width: 769px) {
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        background-image: url('../images/lander/background.jpg');
+        font-family: 'Roboto', sans-serif;
+        margin:0;
+    }
+    .navigation{
+        display: flex;
+    }
+    .navigation img{
+        padding-left: 4%;
+        padding-top: 5%;
+    }
+    .navMenu{
+            position: absolute;
+        right: 0;
+    }
+    .header h2{
+            color: #00b2e3;
+            font-size: 22px;
+            line-height: 32px;
+            padding-left: 15%;
+            padding-right: 15%;
+            text-align: center;
+    }
+    .header img{
+        width: 95%;
+        margin-bottom: 55px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .header {
+        padding-top: 47px;
+        text-align: center;
+    }
+    .header p{
+        color: #131e29;
+        padding: 3%;
+        font-size: 5.5vw;
+    }
+    .getinon{
+        display: flex;
+        flex-direction:row;
+        /* width: 90%; */
+        justify-content: center;
+    }
+    .getinon img{
+        width: auto;
+        margin-bottom: 55px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .main span{
+        font-size: 26px;
+        /* width: 100px; */
+        height: 100px;
+        /* display: inline-block; */
+        vertical-align: middle;
+        /* color: white; */
+        background: linear-gradient(#fefeff , #e6e6e6);
+        text-align: center;
+        border-radius: 29px;
+        /* padding: 8px; */
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        color: black;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .main div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4%;
+        padding-right:4%;
+        text-align: center;
+    }
+    .main p{
+        font-size: 5.5vw
+    }
+    .more{
+        text-align: center;
+        font-size: 5.5vw;
+        background: url('../images/lander/Layex.png');
+        padding-top: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .more div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 4%;
+        padding-right:4%;
+        text-align: center;
+    }
+    .about img{
+            width: 27vw;
+        padding-top: 11vw;
+        padding-bottom: 7vw;
+    }
+    .whatThey{
+        background: url("../images/lander/Layer.jpg");
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .user{
+        background: url("../images/lander/Layer7.png");
+        background-repeat: no-repeat;
+        width: 73vw;
+        height: 117vw;
+        background-size: cover;
+        z-index: 2;
+        position: relative;
+    }
+    .text p{
+            padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-size: 4.5vw;
+        line-height: 6vw;
+    }
+    .text{
+            margin-top: 20vw;
+        margin-bottom: 20vw;
+        /* padding: 5.5vw; */
+        padding-top: 5vw;
+        padding-bottom: 18vw;
+    }
+
+    .whatThey h4{
+            color: white;
+        margin-top: 20vw;
+            font-size: 5.5vw;
+        margin-bottom: 27vw;
+        text-align: center;
+    }
+    .privacy{
+        background-image: url('../images/lander/layer21.png');
+    }
+    .privacy div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 5vw;
+
+    }
+    .privacy img{
+        width: 6vw;
+        height: 7vw;
+    }
+    .privacy h2{
+        padding-left: 6vw;
+    }
+    .privacy{
+            color: #131e29;
+        padding: 3%;
+        font-size: 4.5vw;
+            text-align: justify;
+            line-height: 9vw;
+    }
+    .footer{
+        background-image: url("../images/lander/footer.png");
+        background-size:cover;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+
+        
+    }
+    .buttonFooter{
+        font-size: 4vw;
+        text-transform: uppercase;
+        display: flex;
+        width: 100%;
+        height: 15vw;
+        text-align: center;
+        border-top: 1px solid #23507d;
+        align-items: center;
+        color: white;
+        justify-content: center;
+
+    }
+    .lastButton{
+        align-items: center;
+        justify-content: center;
+            display: flex;
+        width: 100%;
+        height: 15vw;
+        font-size: 4vw;
+        text-align: center;
+        border: 1px solid #23507d;
+        color: white;
+    }
+    .footer p{
+        text-align: center;
+        font-size: 5vw;
+        line-height: 10vw;
+        color: #eff0f1;
+    }
+    .social img{
+    margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 10vw;
+    }
+    .questions{
+        height: 13vw;
+        background: #d8d8d8;
+        border-radius: 10px 10px 0 0;
+        height: 13vw;
+    }
+    .questions span{
+        margin-left: 5vw;
+        color: #131e29;
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+    summary::-webkit-details-marker {
+    display: none;
+    }
+    details{
+        width: 94;
+        margin:3%;
+    }
+    .google{
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .google p{
+        font-size: 3.5vw!important;
+    }
+    .rating{
+            width: 100%;
+        padding-left: 16vw;
+    }
+    .get{
+        display: flex;
+        justify-content:center;
+    }
+    .frequently{
+        margin-top: 15vw;
+    
+    }
+    summary:hover{
+        background-color: #131e29;
+        color:white;
+    }
+    .questions span:hover{
+        color: white;
+    }
+    summary:active{
+        background: white;
+    }
+
+    .faq-section {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-section h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .faq-item {
+        width: 80%;
+        margin-top: 10px;
+    }
+
+    .faq-item:first-of-type {
+        margin-top: 70px;
+    }
+
+    .faq-question {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ffffff;
+        font-size: 22px;
+        padding: 27px 40px 27px 20px;
+        border-radius: 5px;
+    }
+
+    .faq-expand-icon {
+        float: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 15px;
+        height: 9px;
+        margin-top: 8px;
+        padding-left: 9px;
+        display: inline-block;
+        background-image: url("../images/lander/faq-expand-arrow-icon.png");
+    }
+
+    .faq-item-expanded .faq-question{
+        background-color: #131e29;
+        color: #ffffff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .faq-item-expanded .faq-expand-icon {
+        background-image: url("../images/lander/faq-close-arrow-icon.png");
+    }
+
+    .faq-answer {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 20px;
+        padding: 27px 21px;
+        background-color: #ffffff;
+        font-family: 'Roboto Light';
+        color: #7e7e7e;
+        display: none;
+    }
+
+    .faq-item-expanded .faq-answer {
+        display: inherit;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    body {
+        background-color: #f1f1f9;
+        color: #131e29;
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin: 0;
+        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #131e29;
+    }
+    
+    h1 {
+        font-family: 'Roboto';
+        font-size: 68px;
+        line-height: 1.1;
+    }
+    
+    h2 {
+        font-family: 'Roboto';
+        font-size: 60px;
+        line-height: 1.1;
+    }
+    
+    .header {
+        display: flex;
+    }
+    
+    .logo {
+        background-image: url("../images/lander/logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 68px;
+    }
+    
+    .menu {
+        font-weight: bold;
+        font-family: 'Roboto';
+        font-size: 16px;
+        list-style: none;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .navigation li {
+        display: inline;
+    }
+    
+    .navigation li:last-of-type a {
+        margin-right: 14px;
+    }
+    
+    .navigation li a:hover {
+        background: linear-gradient(to bottom, #ffffff, #f1f1f9);
+        border-radius: 30px;
+        box-shadow: 0 0 20px -7px;
+    }
+    
+    
+    @media screen and (min-width: 769px) and (max-width: 960px) {
+        
+        .quote {
+            width: 550px;
+            height: 430px;
+            font-size: 15px;
+        }
+
+        .quote-text {
+            height: 130px;
+            margin: 0px 50px 60px 50px;
+            padding-top: 60px;
+        }
+    }
+    @media screen and (min-width: 961px) and (max-width: 1279px) {
+        .quote {
+            width: 770px;
+            height: 430px;
+            font-size: 22px;
+        }
+
+        .quote-text {
+            height: 130px;
+            margin: 0px 50px 60px 50px;
+            padding-top: 100px;
+        }
+    }
+
+
+    @media screen and (min-width: 769px) and (max-width: 1279px) {
+        @media screen and (min-width: 769px) and (max-width: 900px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+
+            .logo {
+                margin-top: 20px;
+                margin-left: 20px;
+                width: 25%;
+            }
+
+            .menu {
+                align-self: flex-end;
+                margin-top: -50px;
+            }
+        
+            .navigation li a {
+                padding: 14px 15px;
+            }
+            
+            .user-panel li:nth-of-type(1) a {
+                padding: 14px 10px;
+            }
+
+            .user-panel li:nth-of-type(2) a {
+                padding: 14px 18px;
+            }
+
+            .user-panel li:nth-of-type(2), .user-panel li:nth-of-type(3) {
+                display: block;
+                margin-top: 40px;
+            }
+            .user-panel li:nth-of-type(1) {
+                display: block;
+                margin-top: 0px;
+            }
+        }
+
+        @media screen and (min-width: 901px) and (max-width: 1279px) {
+
+            .logo {
+                width: 23%;
+            }
+
+            .header {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .navigation li a {
+                padding: 14px 10px;
+            }
+            
+            .user-panel li:nth-of-type(1) a {
+                padding: 14px 8px;
+            }
+
+            .user-panel li:nth-of-type(2) a {
+                padding: 14px 16px;
+            }
+
+            .user-panel li {
+                display: block;
+                margin-top: 40px;
+            }
+            
+            .user-panel li:nth-of-type(2), .user-panel li:nth-of-type(3) {
+                display: block;
+                margin-top: 40px;
+            }
+            
+            .user-panel li:nth-of-type(1) {
+                display: block;
+                margin-top: 0px;
+            }
+        }
+
+        @media screen and (min-width: 1000px) and (max-width: 1280px) {
+            .logo {
+                margin-left: 40px;
+            }
+        }
+
+        .about-item {
+            width: 200px;
+            margin: 40px 15px;
+        }
+
+        .faq-item {
+            width: 700px;
+        }
+    
+        .privacy-section-item {
+            width: 300px;
+        }
+
+        footer .footer-item:first-of-type {
+            margin-left: 40px;
+        }
+
+        footer .footer-item:last-of-type {
+            margin-right: 40px;
+        }
+
+        .header {
+            margin: 30px 2%;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        
+        
+        .header {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+
+        .quote-text {
+            height: 130px;
+            margin: 0px 50px 60px 50px;
+            padding-top: 140px;        }
+
+        .quote {
+            width: 944px;
+            height: 430px;
+            line-height: 1.9;
+            font-size: 20px;
+        }
+
+        .user-panel li {
+            display: inline;
+        }
+
+        .about-item {
+            width: 340px;
+            margin: 40px 15px;
+        }
+
+        .user-panel li:nth-of-type(-n + 2) a {
+            padding: 14px 35px;
+        }
+
+        .faq-item {
+            width: 945px;
+        }
+    
+        .privacy-section-item {
+            width: 555px;
+        }
+
+        footer .footer-item:first-of-type {
+            margin-right: 100px;
+        }
+        
+    }
+
+    @media screen and (min-width: 1280px) and (max-width: 1600px) {
+        .header {
+            margin: 30px 5%;
+        }
+    }
+
+    @media screen and (min-width: 1601px) {
+        .header {
+            margin: 30px 11%;
+        }
+    }
+    
+    .user-panel li:nth-of-type(-n + 2) a {
+        margin-right: 10px;
+        background: #ffffff;
+        border-radius: 30px;
+    }
+    
+    .user-panel li:nth-of-type(-n + 2) a:hover {
+        background-color: #7cd1ee;
+    }
+    
+    .icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        padding-right: 16px;
+        margin-bottom: -3px;
+    }
+    
+    .user-icon {
+        background-image: url("../images/lander/user_icon.png");
+    }
+    
+    .pen-icon {
+        background-image: url("../images/lander/pen_icon.png");
+    }
+    
+    .lang-en-icon {
+        background-image: url("../images/lander/lang_en_icon.png");
+    }
+    
+    .dropdown-arrow-icon {
+        background-image: url("../images/lander/dropdown_icon.png");
+    }
+    
+    .star-icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 15px;
+        height: 15px;
+        padding-left: 9px;
+        display: inline-block;
+        background-image: url("../images/lander/star-icon.png");
+    }
+    
+    .blue-text {
+        color: #00b2e3;
+    }
+    
+    .main-text {
+        margin-left: 5%;
+        width: 35%;
+    }
+    
+    .description-section {
+        margin-top: 91px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main-text-margin {
+        margin-top: 0;
+        margin-bottom: 38px;
+    }
+    
+    .google-play-buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+    
+    .google-play-button-set {
+        font-family: 'Roboto';
+        font-size: 18px;
+        width: 192px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 30px;
+    }
+    
+    .google-button {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 192px;
+        height: 55px;
+        margin-top: 16px;
+        display: block;
+    }
+    
+    .google-button:hover {
+        opacity: 0.6;
+    }
+    
+    .google-play-button {
+        background-image: url("../images/lander/google-play-btn.png");
+    }
+    
+    .google-play-get-expert-recommendations-button {
+        background-image: url("../images/lander/google-play-get-expert-recommendations-btn.png");
+    }
+    .imgdiv{
+        width: 50%;
+    }
+    .header-image {
+        
+        margin-left: 30px;
+        max-width: 100%;
+        max-height: 10%;
+        z-index: 2;
+    }
+    .tube{
+        margin-left: 30px;
+    }
+    .tube iframe{
+        border: grey 10px solid;
+        border-radius: 5%;
+        width: 600px;
+        height: 400px;
+    }
+    .close{
+        display: none;
+    }
+    .modal-header.close{
+        display: block;
+    }
+    .video-section {
+        background-image: url("../images/lander/gradient-bg.png");
+        background-position: center;
+        background-size: cover;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-top: 115px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .video {
+        cursor: pointer;
+        border-radius: 150px;
+        background-image: url("../images/lander/video-main-image.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 749px;
+        height: 287px;
+    }
+    
+    .video:hover {
+        background-image: url("../images/lander/video-main-image-hover.png");
+    }
+    
+    .video-play-button {
+        position: relative;
+        background-image: url("../images/lander/video-play-btn.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 82px;
+        height: 82px;
+        margin: 103px 334px;
+    }
+    
+    .video-shadow {
+        position: absolute;
+        background-image: url("../images/lander/video-shadow.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        margin-top: 140px;
+    }
+    
+    .arrow-from-header-image {
+        position: absolute;
+        background-image: url("../images/lander/arrow-from-header-image.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 585px;
+        height: 250px;
+        z-index: 1;
+        margin-top: 430px;
+        margin-left: 20%;
+    }
+    
+    .how-it-works-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 125px 15%;
+    }
+    
+    .step {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 90px;
+    }
+    
+    .step:first-of-type {
+        margin-top: 120px;
+    }
+    
+    .step-text {
+        font-family: 'Roboto Light';
+        width: 50%;
+        margin: 0 20px;
+    }
+    
+    .step-number {
+        width: 40px;
+        font-family: 'Helvetica';
+        font-weight: bold;
+        font-size: 72px;
+        padding: 4px 32px;
+        background: linear-gradient(to bottom, #ffffff, #f1f1f9);
+        border-radius: 50%;
+        box-shadow: 0 0 40px -15px;
+        margin-top: 60px;
+        box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+    }
+    
+    .step-main-text {
+        margin-top: 60px;
+        font-size: 28px;
+    }
+    
+    .step-description {
+        margin-top: 60px;
+    }
+    
+    .step1-image {
+        width: 45%;
+        background-image: url("../images/lander/step1-image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .step2-image {
+        width: 45%;
+        background-image: url("../images/lander/step2-image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .step3-image {
+        width: 45%;
+        background-image: url("../images/lander/step3-image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .step4-image {
+        width: 45%;
+        background-image: url("../images/lander/step4-image.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .wireless-signal-image {
+        position: absolute;
+        margin-left: 190px;
+        width: 270px;
+        height: 305px;
+        background-image: url("../images/lander/wireless-signal.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .dash-cam-image {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 150px;
+        width: 305px;
+        height: 380px;
+        background-image: url("../images/lander/dash-cam.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    
+    .phone-with-map-image {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 220px;
+        width: 239px;
+        height: 493px;
+        background-image: url("../images/lander/phone-with-map.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    
+    .root-image {
+        width: 457px;
+        height: 570px;
+        margin-left: 80px;
+        background-image: url("../images/lander/root.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .guy-with-dash-can-in-car-image {
+        position: absolute;
+        margin-top: 215px;
+        margin-left: -100px;
+        width: 470px;
+        height: 217px;
+        background-image: url("../images/lander/guy-with-dash-cam-in-car.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .phone-with-root-image {
+        width: 211px;
+        height: 408px;
+        margin-left: 200px;
+        background-image: url("../images/lander/phone-with-root.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .phone-with-dash-cam-application-image {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 170px;
+        width: 190px;
+        height: 368px;
+        background-image: url("../images/lander/phone-with-dash-cam-application.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .blue-background-for-guy-image {
+        position: absolute;
+        margin-top: 380px;
+        margin-left: -200px;
+        width: 465px;
+        height: 216px;
+        background-image: url("../images/lander/blue-background-for-guy.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .guy-with-phone-image {
+        position: absolute;
+        margin-top: 148px;
+        margin-left: -200px;
+        width: 454px;
+        height: 448px;
+        background-image: url("../images/lander/guy-with-phone.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+    
+    .phone-with-app-screenshot-image {
+        width: 405px;
+        height: 507px;
+        margin-top: 70px;
+        margin-left: 200px;
+        background-image: url("../images/lander/phone-with-app-screenshot.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .dash-cam-with-video-image {
+        position: absolute;
+        width: 622px;
+        height: 265px;
+        margin-top: 130px;
+        margin-left: -210px;
+        background-image: url("../images/lander/dash-cam-with-video.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    
+    .how-it-works-section .google-play-buttons {
+        margin-top: 120px;
+    }
+    
+    .about-items {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-items-row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Roboto Light';
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .about-item-image {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .more-about-us-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 121px;
+        background-color: #e8e8f2;
+    }
+    
+    .sections-separator {
+        background-image: url("../images/lander/more-about-us-bg.png");
+        background-position: top;
+        height: 424px;
+        widows: 100%;
+    }
+    
+    .more-about-us-section h1 {
+        font-size: 70px;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    
+    .about-image-1 {
+        background-image: url("../images/lander/about-image-1.png");
+    }
+    
+    .about-image-2 {
+        background-image: url("../images/lander/about-image-2.png");
+    }
+    
+    .about-image-3 {
+        background-image: url("../images/lander/about-image-3.png");
+    }
+    
+    .about-image-4 {
+        background-image: url("../images/lander/about-image-4.png");
+    }
+    
+    .about-image-5 {
+        background-image: url("../images/lander/about-image-5.png");
+    }
+    
+    .about-image-6 {
+        background-image: url("../images/lander/about-image-6.png");
+    }
+    
+    .about-item-description {
+        margin-top: 60px;
+    }
+    
+    .about-items-separator {
+        background-color: #ffffff;
+        width: 100%;
+        height: 1px;
+    }
+    
+    .what-they-say-about-comroads-section {
+        color: #ffffff;
+        background-image: url("../images/lander/what-they-say-about-comroads.png");
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+    
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slides {
+        width: 944px;
+    }
+
+    .what-they-say-about-comroads-section h1 {
+        text-align: center;
+        margin: 0 auto 90px auto;
+        font-size: 60px;
+        font-family: 'Roboto';
+    }
+    
+    .quote {
+        font-family: 'Roboto';
+        font-style: italic;
+        background-image: url("../images/lander/quote-bg.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .quote-author {
+        position: absolute;
+        margin-top: 50px;
+    }
+    
+    .slider-button {
+        cursor: pointer;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 43px;
+    }
+    
+    .slider-left-button {
+        background-image: url("../images/lander/slider-left-btn.png");
+        margin-right: 73px;
+    }
+    
+    .slider-right-button {
+        background-image: url("../images/lander/slider-right-btn.png");
+        margin-left: 73px;
+    }
+    
+    .faq-section {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .faq-section h1 {
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .faq-item {
+        margin-top: 10px;
+    }
+    
+    .faq-item:first-of-type {
+        margin-top: 70px;
+    }
+    
+    .faq-question {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #ffffff;
+        font-size: 22px;
+        padding: 27px 20px;
+        border-radius: 5px;
+    }
+    
+    .faq-expand-icon {
+        float: right;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 27px;
+        height: 16px;
+        margin-top: 8px;
+        margin-right: 15px;
+        padding-left: 9px;
+        display: inline-block;
+        background-image: url("../images/lander/faq-expand-arrow-icon.png");
+    }
+    
+    .faq-item-expanded .faq-question{
+        background-color: #131e29;
+        color: #ffffff;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    
+    .faq-item-expanded .faq-expand-icon {
+        background-image: url("../images/lander/faq-close-arrow-icon.png");
+    }
+    
+    .faq-answer {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 20px;
+        padding: 27px 21px;
+        background-color: #ffffff;
+        font-family: 'Roboto Light';
+        color: #7e7e7e;
+        display: none;
+    }
+    
+    .faq-item-expanded .faq-answer {
+        display: inherit;
+    }
+    
+    .faq-section .google-play-buttons {
+        margin-top: 65px;
+    }
+    
+    .privacy-section {
+        padding: 95px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #e8e8f2;
+    }
+    .privacy-section-item-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .privacy-section-item-text p {
+        margin-top: 40px;
+    }
+    
+    .privacy-section-item-text {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    
+    .privacy-section-item:first-of-type {
+        margin-right: 30px;
+    }
+    
+    .helm-icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 32px;
+        height: 32px;
+        margin-bottom: -4px;
+        margin-right: 20px;
+        display: inline-block;
+        background-image: url("../images/lander/helm-icon.png");
+    }
+    
+    .lock-icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 26px;
+        height: 32px;
+        margin-bottom: -4px;
+        margin-right: 20px;
+        display: inline-block;
+        background-image: url("../images/lander/lock-icon.png");
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px 0 28px 0;
+        background-color: #131e29;
+    }
+    
+    .logo-footer {
+        background-image: url("../images/lander/logo-footer.png");
+        width: 294px;
+        height: 68px;   
+    }
+    
+    footer .google-button {
+        display: inline-block;
+        widows: 192px;
+        height: 55px;
+    }
+    
+    footer .google-button:first-of-type {
+        margin-right: 26px;
+    }
+    
+    .footer-navigation {
+        list-style: none;
+    }
+    
+    .footer-navigation li {
+        margin-left: 55px;
+        display: inline;
+    }
+    
+    .footer-navigation a {
+        font-size: 16px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .copyright {
+        margin-top: 10px; 
+        font-size: 18px;
+        color: #ffffff;
+        font-family: 'Roboto Regular';
+    }
+    
+    .follow-us-set {
+        margin-top: 24px;
+    }
+    
+    .footer-icon {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 42px;
+        height: 42px;
+        display: inline-block;
+        border-radius: 50%;
+    }
+    
+    .vimeo-icon {
+        background-image: url("../images/lander/vimeo-logo.png");
+    }
+    
+    .twitter-icon {
+        background-image: url("../images/lander/twitter-logo.png");
+        margin: 0 20px;
+    }
+    
+    .facebook-icon {
+        background-image: url("../images/lander/facebook-logo.png");
+    }
+    
+    footer .footer-item:last-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    @media screen and (min-width:1280px) and (max-width:1360px) {
+        .navigation li a {
+            padding: 14px 6px;
+        }
+    }
+
+    @media screen and (min-width:1360px) and (max-width: 1410px) {
+        .navigation li a {
+            padding: 14px 8px;
+        }
+    }
+    
+    @media screen and (min-width:1411px) {
+        .navigation li a {
+            padding: 14px 14px;
+        }
+    }
+
+    @media screen and (max-width: 1600px) {
+        .user-panel {
+            padding-left: 0px;
+        }
+    }
+}

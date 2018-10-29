@@ -1,0 +1,73 @@
+[
+    {
+        "feature_name": "",
+        "azdome": "<a href=''><img class='dashcam-image' src='images/dashcams/azdome-g70.png' alt='azdome g70'/>",
+        "wr1": "<a href='/dashcam-review/viofo-wr1'><img class='dashcam-image'  src='images/dashcams/viofo-wr1.png'/></a>",
+        "xiaomi_yi": "<a href='/dashcam-review/yi-dashcam'><img class='dashcam-image'  src='images/dashcams/xiaomi-yi.png'/></a>",
+        "yi_ultra": "<a href='/dashcam-review/yi-ultra'><img class='dashcam-image'  src='images/dashcams/yi-ultra.png'/></a>"
+    },
+    {
+        "feature_name": "",
+        "azdome": "<span class='greentick'><a href=''>סקירה מלאה</a></span>",
+        "wr1": "<span class='greentick'><a href='/dashcam-review/viofo-wr1'>סקירה מלאה</a></span>",
+        "xiaomi_yi": "<span class='greentick'><a href='/dashcam-review/yi-dashcam'>סקירה מלאה</a></span>",
+        "yi_ultra": "<span class='greentick'><a href='/dashcam-review/yi-ultra'>סקירה מלאה</a></span>"
+    },
+    {
+        "feature_name": "תומכת באפליקצית קומרודס",
+        "azdome": "<span class='greentick'>✓</span>",
+        "wr1": "<span class='greentick'>✓</span>",
+        "xiaomi_yi": "<span class='greentick'>✓</span>",
+        "yi_ultra": "<span class='greentick'>✓</span>"
+    },
+    {
+        "feature_name": "מהירות WIFI",
+        "azdome": "עד 1.5 MB/Sec",
+        "wr1": "עד 0.9 MB/Sec",
+        "xiaomi_yi": "עד 2.5 MB/Sec",
+        "yi_ultra": "<span class='greentick'>עד 5MB/sec</span>"
+
+    },
+    {
+        "feature_name": "בטריה או קבל",
+        "azdome": "<span class='greentick'>קבל</span>",
+        "wr1": "<span class='greentick'>קבל</span>",
+        "xiaomi_yi": "<span class='redx'>בטריה</span>",
+        "yi_ultra": "<span class='redx'>בטריה</span>"
+    },
+    {
+        "feature_name": "רזולוציה מקסימלית",
+        "azdome": "1080P",
+        "wr1": "1080P",
+        "xiaomi_yi": "1296P",
+        "yi_ultra": "1520P"
+    },
+    {
+        "feature_name": "זוית צילום",
+        "azdome": "",
+        "wr1": "160°",
+        "xiaomi_yi": "165°",
+        "yi_ultra": "140°"
+    },
+    {
+        "feature_name": "איכות חומרים ועמידות לחום",
+        "azdome": "",
+        "wr1": "<span class='greentick'>חומרים טובים. עמידות טובה לחום</span>",
+        "xiaomi_yi": "עמידות בינונית לחום. יש דיווחים על אבדן פוקוס בעדשה עם חשיפה לחום ממושך",
+        "yi_ultra": "עמידה לחום חוץ מהבטריה"
+    },
+    {
+        "feature_name": "מסך",
+        "azdome": "<span class='greentick'>✓<span>",
+        "wr1": "x",
+        "xiaomi_yi": "✓",
+        "yi_ultra": "✓"
+    },
+    {
+        "feature_name": "מסקנה",
+        "azdome": "",
+        "wr1": "דיסקרטית יותר ועם תמונה טובה יותר מה-YI למרות גודל הקובץ הקטן יותר (ניתן להכיל יותר זמן וידאו באותו גודל כרטיס זכרון)",
+        "xiaomi_yi": "התמורה הטובה ביותר למחיר למרות שמכיל בטריה. כמו כן יש מעטים המדווחים על בעיות פוקוס בעדשה לאחר זמן מה עקב השפעות החום",
+        "yi_ultra": "תמונה מצוינת ביום. פחות טובה בלילה. שווה אם מוכנים לשלם קצת יותר גם על כרטיס זכרון גדול יותר"
+    }  
+]

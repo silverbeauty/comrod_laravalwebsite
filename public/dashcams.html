@@ -1,0 +1,1399 @@
+
+<meta property="og:title" content="סקירות מצלמות רכב - קומרודס"/>
+<meta property="og:image" content="http://comroads.com/images/dashcams/yi_ultra_dashboard.jpg"/>
+<meta property="og:description" content="סקירות מצלמות רכב כולל סרטונים מקוריים שלא עברו עיבוד. המצלמות הנבדקות אף תומכות באפליקציה של קומרודס"/>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="./content/dashcam-content-column-en.json...">
+        <meta name="author" content="comroads.com">
+        <meta name="csrf_token" content="3cK7SQXWRTCC2oRpUaWeHYVFu13lwCOUsElsU26x">
+
+        
+        <link rel="icon" href="http://jspl.comroads.com/images/favicon.ico">
+        <title>Dashcams - Broadcast your drive through dash cam video</title>
+        <link href="/css/app.css" rel="stylesheet">
+                
+        
+        
+        
+        <script type="text/javascript" src="http://jspl.comroads.com/js/jquery.js"></script>
+
+                            <script type="text/javascript" src="http://jspl.comroads.com/js/flowplayer.js"></script>
+
+                            
+
+        <script type="text/javascript">
+            var interval = null;
+            var counterInterval = null;
+            function refreshIt(element, seconds)
+            {
+                var timeout = seconds * 1000;
+
+                interval = setInterval(function () { changeSrc(element) }, timeout);
+                counterInterval = setInterval(function () {
+                    refreshCounter(seconds);
+                }, 1000);
+            }
+
+            function changeSrc(element)
+            {
+                var $this = $(element);
+                var src = $this.attr('src').split('?')[0] + '?' + new Date().getTime();
+
+                $this.attr('src', src);
+                console.log(src);
+
+                clearInterval(interval);
+            }
+
+            function refreshCounter(seconds)
+            {
+                var counter = parseInt($('#refresh-counter').html());
+
+                if (counter == 0) {
+                    counter = seconds + 1;
+                    clearInterval(counterInterval);
+                }
+
+                $('#refresh-counter').html(counter - 1);
+
+            }
+        </script>
+        
+        
+    </head>
+    <body class="" id="pjax-container">
+                                    <div class="Header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 col-xs-12 logo-cont text-left">
+                <a href="http://comroads.com">
+                    <img src="http://jspl.comroads.com/images/logo.png">
+                </a>
+            </div>
+            <div class="col-md-5 col-sm-12 col-xs-12">
+                <ul class="Header__Menu">
+                                                                        <li><a data-toggle="modal" data-target="#signUpModal" data-backdrop="static">Sign Up</a></li>
+                                                                            <li><a data-toggle="modal" data-target="#loginModal" data-backdrop="static">Login</a></li>
+                                                                <li>
+                        <span>Language:</span>
+                        <i class="flag-icon flag-icon-gb"></i>
+                        <div class="dropdown">
+                            <a data-toggle="dropdown"><i class="fa fa-chevron-circle-down fa-lg"></i></a>
+                            <ul class="dropdown-menu pull-right" aria-labelledby="dropdownMenu1">
+                                                                    <li>
+                                        <a href="//il.comroads.com/dashcams">
+                                            <i class="flag-icon flag-icon-il"></i> IL
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="//ru.comroads.com/dashcams">
+                                            <i class="flag-icon flag-icon-ru"></i> RU
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="//ro.comroads.com/dashcams">
+                                            <i class="flag-icon flag-icon-ro"></i> RO
+                                        </a>
+                                    </li>
+                                                                    <li>
+                                        <a href="//ar.comroads.com/dashcams">
+                                            <i class="flag-icon flag-icon-sa"></i> AR
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-default navbar-static-top Main__Menu">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://comroads.com">Comroads</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav">
+                <li><a href="http://comroads.com">Home</a></li>
+                <li><a href="http://comroads.com/upload/video">Upload</a></li>
+                <li><a href="http://comroads.com/about-us">About Us</a></li>
+                <li><a href="http://comroads.com/contact-us">Contact Us</a></li>
+                <li><a href="http://comroads.com/faq">FAQ</a></li>
+                            </ul>
+            <ul class="nav navbar-nav navbar-right navbar-social">
+                                <li><a href="https://www.facebook.com/comroads.il" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/Comroads_Global" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                <li><a href=""><i class="fa fa-vimeo-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+                                <div class="container">
+        <div class="row">                        
+            <link href="./css/dashcams.css" rel="stylesheet">                
+            <div class="dashcam-compare text-left">
+                <table id="dashtable" class="table table-bordered tablesorter">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Viofo WR1</th>
+                    <th>Xiaomi YI</th>
+                    <th>YI Ultra</th>
+                </tr>
+            </thead>
+            <tbody>
+         <tr><td></td><td><a href=''><img class='dashcam-image'  src='images/dashcams/viofo-wr1.png'/></a></td><td><a href=''><img class='dashcam-image'  src='images/dashcams/xiaomi-yi.png'/></a></td><td><a href=''><img class='dashcam-image'  src='images/dashcams/yi-ultra.png'/></a></td></tr><tr><td>Supports the Comroads app?</td><td><span class='greentick'>✓</span></td><td><span class='greentick'>✓</span></td><td><span class='greentick'>✓</span></td></tr><tr><td>Wifi speed</td><td>Good</td><td>Good</td><td><span class='greentick'>Very fast</span></td></tr><tr><td>Battery or capacitor</td><td><span class='greentick'>Capacitor</span></td><td><span class='redx'>Battery</span></td><td><span class='redx'>Battery</span></td></tr><tr><td>Max resolution</td><td>1080P</td><td>1296P or 1080P60fps</td><td>1520P or 1080P60fps</td></tr><tr><td>Recording angle</td><td>160°</td><td>160°</td><td>140°</td></tr><tr><td>Aperature</td><td>F1.8</td><td>F1.8</td><td></td></tr><tr><td>Material quality and resistance to heat</td><td><span class='greentick'>Good build. Great heat resistance</span></td><td>Medoicre heat resistance. Has been known to lose focus after prolonged exposure to high temperature climate</td><td>Good heat resistance except for battery</td></tr><tr><td>Screen</td><td>x</td><td>✓</td><td>✓</td></tr><tr><td>Buy</td><td><div class='buynow-en'><a right' href='https://ebay.to/2K8Cc9A' target='_blank'>$69.49 <img src='../images/ebay-icon.png'></a><br><a href='http://bit.ly/Viofo-WR1' target='_blank'>$68.49 <img src='../images/lightinthebox-icon.png'></a></div></td><td><div class='buynow-en'><a href='http://www.anrdoezrs.net/links/8126110/type/dlg/https://www.lightinthebox.com/p/xiaomi-yi-smart-car-dvr-wifi-camera-165-degree-dash-cam-1080p-60fps-2-7-inch-camcorder-for-android-ios_p4861616.html?prm=1.5.1.1' target='_blank'>$53.99 <img src='./images/lightinthebox-icon.png'></a><br><a href='http://s.click.aliexpress.com/e/UbqnmAA' target='_blank'>$54.99 <img src='./images/aliexpress-icon.png'></a></div></td><td><div class='buynow-en'><a href='https://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&toolid=11800&pub=5575387135&campid=5338298019&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FYI-2-7K-Ultra-Dash-Camera-2-7-Wifi-Car-DVR-MEMS-3-axis-G-Sensor-Voice-Control%2F122801434787' target='_blank'>$86.40 <img src='./images/ebay-icon.png'></a><br><a href='http://s.click.aliexpress.com/e/UznybaM' target='_blank'>$99.99 <img src='./images/aliexpress-icon.png'></a></div></td></tr> 
+                <tr>
+                    <td>קנייה</td>
+                    <td><div class="buynow-heb"><a href="/go/wr1-ebay" target="_blank"><button class="pricebutton">$69.99</button><img src="./images/ebay-icon.png"/></a><br><a href="/go/wr1-aliexpress" target="_blank"><button class="pricebutton">$83.99</button><img src="./images/aliexpress-icon.png"/></a><br></div></td><td><div class="buynow-heb"><a href="/go/yi-ebay" target="_blank"><button class="pricebutton">$51.99</button><img src="./images/ebay-icon.png"/></a><br><a href="/go/yi-aliexpress" target="_blank"><button class="pricebutton">$50.00</button><img src="./images/aliexpress-icon.png"/></a><br><a href="/go/yi-lightinthebox" target="_blank"><button class="pricebutton">$53.99</button><img src="./images/lightinthebox-icon.png"/></a><br></div></td><td><div class="buynow-heb"><a href="/go/yiultra-ebay" target="_blank"><button class="pricebutton">$60.00</button><img src="./images/ebay-icon.png"/></a><br><a href="/go/yiultra-aliexpress" target="_blank"><button class="pricebutton">$99.99</button><img src="./images/aliexpress-icon.png"/></a><br></div></td>                </tr> 
+            </tbody>
+        </table>        
+            </div>
+        </div>
+</script>
+    </div>
+    
+
+                    <footer>
+    <div class="container text-center">
+        <ul class="nav">
+            <li><a href="http://comroads.com/about-us">About Us</a></li>
+            <li><a href="http://comroads.com/contact-us">Contact Us</a></li>
+            <li><a href="http://comroads.com/terms-and-conditions">Terms and Conditions</a></li>
+            <li><a href="http://comroads.com/uploading-guidelines">Uploading Guidelines</a></li>
+                        <li><a href="http://comroads.com/explainervideo">Explainer Video</a></li>
+                    </ul><br/>
+        <ul class="nav with-padding-li">
+            <li>&copy; 2018</li>
+            <li>Comroads.com</li>
+            <li>All rights reserved</li>            
+        </ul>
+    </div>
+</footer>            <script type="text/javascript">
+                var global_js_vars = {
+                    cancelButtonText: "Cancel",
+                    player: "flowplayer",
+                };
+            </script>
+                        <div id="appJsContainer">
+                <script type="text/javascript" src="http://jspl.comroads.com/build/js/app-2a6f63d6a8.js" class="reloadable"></script>
+            </div>
+                    
+        
+                        
+                                    <div class="modal fade" id="signUpModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header no-border">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                
+            </div>
+            <div class="modal-body">
+                <h4 class="Content__Heading text-center"><span>Create a free account</span></h4>
+                <div class="form-group clearfix">
+    <div class="text-center col-md-8 col-md-offset-2">
+        <h5 class="text-center">Quick signup with social account</h5>
+        <div>
+            <a href="http://comroads.com/auth/facebook"><i class="fa fa-facebook-square facebook fa-5x"></i></a>&nbsp;&nbsp;
+            <a href="http://comroads.com/auth/twitter"><i class="fa fa-twitter-square twitter fa-5x"></i></a>&nbsp;&nbsp;
+                        <a href="http://comroads.com/auth/google"><i class="fa fa-google-plus-square google fa-5x"></i></a>
+        </div>
+    </div>
+</div>
+
+<h5 class="text-center"><span>Or signup with an email</span></h5><br/>
+
+
+
+<form action="http://comroads.com/signup" method="post" class="form-horizontal gutter-5 registration-form">
+    <input type="hidden" name="_token" value="3cK7SQXWRTCC2oRpUaWeHYVFu13lwCOUsElsU26x">
+
+    
+        <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Username <span class="text-primary asterisk">*</span></label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <input type="text" name="username" value="" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">E-mail <span class="text-primary asterisk">*</span></label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <input type="text" name="email" value="" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Password <span class="text-primary asterisk">*</span></label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <input type="password" name="password" value="" class="form-control" placeholder="">
+        </div>
+    </div>
+        <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12">Country <span class="text-primary asterisk">*</span></label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <select name="country_code" class="form-control chosen-select" data-placeholder="Select Country">
+                <option></option>
+                                    <option
+                        value="AF"
+                        
+                    >Afghanistan</option>
+                                    <option
+                        value="AX"
+                        
+                    >Aland Islands</option>
+                                    <option
+                        value="AL"
+                        
+                    >Albania</option>
+                                    <option
+                        value="DZ"
+                        
+                    >Algeria</option>
+                                    <option
+                        value="AS"
+                        
+                    >American Samoa</option>
+                                    <option
+                        value="AD"
+                        
+                    >Andorra</option>
+                                    <option
+                        value="AO"
+                        
+                    >Angola</option>
+                                    <option
+                        value="AI"
+                        
+                    >Anguilla</option>
+                                    <option
+                        value="A1"
+                        
+                    >Anonymous Proxy</option>
+                                    <option
+                        value="AQ"
+                        
+                    >Antarctica</option>
+                                    <option
+                        value="AG"
+                        
+                    >Antigua and Barbuda</option>
+                                    <option
+                        value="AR"
+                        
+                    >Argentina</option>
+                                    <option
+                        value="AM"
+                        
+                    >Armenia</option>
+                                    <option
+                        value="AW"
+                        
+                    >Aruba</option>
+                                    <option
+                        value="AP"
+                        
+                    >Asia/Pacific Region</option>
+                                    <option
+                        value="AU"
+                        
+                    >Australia</option>
+                                    <option
+                        value="AT"
+                        
+                    >Austria</option>
+                                    <option
+                        value="AZ"
+                        
+                    >Azerbaijan</option>
+                                    <option
+                        value="BS"
+                        
+                    >Bahamas</option>
+                                    <option
+                        value="BH"
+                        
+                    >Bahrain</option>
+                                    <option
+                        value="BD"
+                        
+                    >Bangladesh</option>
+                                    <option
+                        value="BB"
+                        
+                    >Barbados</option>
+                                    <option
+                        value="BY"
+                        
+                    >Belarus</option>
+                                    <option
+                        value="BE"
+                        
+                    >Belgium</option>
+                                    <option
+                        value="BZ"
+                        
+                    >Belize</option>
+                                    <option
+                        value="BJ"
+                        
+                    >Benin</option>
+                                    <option
+                        value="BM"
+                        
+                    >Bermuda</option>
+                                    <option
+                        value="BT"
+                        
+                    >Bhutan</option>
+                                    <option
+                        value="BO"
+                        
+                    >Bolivia</option>
+                                    <option
+                        value="BQ"
+                        
+                    >Bonaire, Saint Eustatius and Saba</option>
+                                    <option
+                        value="BA"
+                        
+                    >Bosnia and Herzegovina</option>
+                                    <option
+                        value="BW"
+                        
+                    >Botswana</option>
+                                    <option
+                        value="BV"
+                        
+                    >Bouvet Island</option>
+                                    <option
+                        value="BR"
+                        
+                    >Brazil</option>
+                                    <option
+                        value="IO"
+                        
+                    >British Indian Ocean Territory</option>
+                                    <option
+                        value="BN"
+                        
+                    >Brunei Darussalam</option>
+                                    <option
+                        value="BG"
+                        
+                    >Bulgaria</option>
+                                    <option
+                        value="BF"
+                        
+                    >Burkina Faso</option>
+                                    <option
+                        value="BI"
+                        
+                    >Burundi</option>
+                                    <option
+                        value="KH"
+                        
+                    >Cambodia</option>
+                                    <option
+                        value="CM"
+                        
+                    >Cameroon</option>
+                                    <option
+                        value="CA"
+                        
+                    >Canada</option>
+                                    <option
+                        value="CV"
+                        
+                    >Cape Verde</option>
+                                    <option
+                        value="KY"
+                        
+                    >Cayman Islands</option>
+                                    <option
+                        value="CF"
+                        
+                    >Central African Republic</option>
+                                    <option
+                        value="TD"
+                        
+                    >Chad</option>
+                                    <option
+                        value="CL"
+                        
+                    >Chile</option>
+                                    <option
+                        value="CN"
+                        
+                    >China</option>
+                                    <option
+                        value="CX"
+                        
+                    >Christmas Island</option>
+                                    <option
+                        value="CC"
+                        
+                    >Cocos (Keeling) Islands</option>
+                                    <option
+                        value="CO"
+                        
+                    >Colombia</option>
+                                    <option
+                        value="KM"
+                        
+                    >Comoros</option>
+                                    <option
+                        value="CG"
+                        
+                    >Congo</option>
+                                    <option
+                        value="CD"
+                        
+                    >Congo, The Democratic Republic of the</option>
+                                    <option
+                        value="CK"
+                        
+                    >Cook Islands</option>
+                                    <option
+                        value="CR"
+                        
+                    >Costa Rica</option>
+                                    <option
+                        value="CI"
+                        
+                    >Cote D&#039;Ivoire</option>
+                                    <option
+                        value="HR"
+                        
+                    >Croatia</option>
+                                    <option
+                        value="CU"
+                        
+                    >Cuba</option>
+                                    <option
+                        value="CW"
+                        
+                    >Curacao</option>
+                                    <option
+                        value="CY"
+                        
+                    >Cyprus</option>
+                                    <option
+                        value="CZ"
+                        
+                    >Czech Republic</option>
+                                    <option
+                        value="DK"
+                        
+                    >Denmark</option>
+                                    <option
+                        value="DJ"
+                        
+                    >Djibouti</option>
+                                    <option
+                        value="DM"
+                        
+                    >Dominica</option>
+                                    <option
+                        value="DO"
+                        
+                    >Dominican Republic</option>
+                                    <option
+                        value="EC"
+                        
+                    >Ecuador</option>
+                                    <option
+                        value="EG"
+                        
+                    >Egypt</option>
+                                    <option
+                        value="SV"
+                        
+                    >El Salvador</option>
+                                    <option
+                        value="GQ"
+                        
+                    >Equatorial Guinea</option>
+                                    <option
+                        value="ER"
+                        
+                    >Eritrea</option>
+                                    <option
+                        value="EE"
+                        
+                    >Estonia</option>
+                                    <option
+                        value="ET"
+                        
+                    >Ethiopia</option>
+                                    <option
+                        value="EU"
+                        
+                    >Europe</option>
+                                    <option
+                        value="FK"
+                        
+                    >Falkland Islands (Malvinas)</option>
+                                    <option
+                        value="FO"
+                        
+                    >Faroe Islands</option>
+                                    <option
+                        value="FJ"
+                        
+                    >Fiji</option>
+                                    <option
+                        value="FI"
+                        
+                    >Finland</option>
+                                    <option
+                        value="FR"
+                        
+                    >France</option>
+                                    <option
+                        value="GF"
+                        
+                    >French Guiana</option>
+                                    <option
+                        value="PF"
+                        
+                    >French Polynesia</option>
+                                    <option
+                        value="TF"
+                        
+                    >French Southern Territories</option>
+                                    <option
+                        value="GA"
+                        
+                    >Gabon</option>
+                                    <option
+                        value="GM"
+                        
+                    >Gambia</option>
+                                    <option
+                        value="GE"
+                        
+                    >Georgia</option>
+                                    <option
+                        value="DE"
+                        
+                    >Germany</option>
+                                    <option
+                        value="GH"
+                        
+                    >Ghana</option>
+                                    <option
+                        value="GI"
+                        
+                    >Gibraltar</option>
+                                    <option
+                        value="GR"
+                        
+                    >Greece</option>
+                                    <option
+                        value="GL"
+                        
+                    >Greenland</option>
+                                    <option
+                        value="GD"
+                        
+                    >Grenada</option>
+                                    <option
+                        value="GP"
+                        
+                    >Guadeloupe</option>
+                                    <option
+                        value="GU"
+                        
+                    >Guam</option>
+                                    <option
+                        value="GT"
+                        
+                    >Guatemala</option>
+                                    <option
+                        value="GG"
+                        
+                    >Guernsey</option>
+                                    <option
+                        value="GN"
+                        
+                    >Guinea</option>
+                                    <option
+                        value="GW"
+                        
+                    >Guinea-Bissau</option>
+                                    <option
+                        value="GY"
+                        
+                    >Guyana</option>
+                                    <option
+                        value="HT"
+                        
+                    >Haiti</option>
+                                    <option
+                        value="HM"
+                        
+                    >Heard Island and McDonald Islands</option>
+                                    <option
+                        value="VA"
+                        
+                    >Holy See (Vatican City State)</option>
+                                    <option
+                        value="HN"
+                        
+                    >Honduras</option>
+                                    <option
+                        value="HK"
+                        
+                    >Hong Kong</option>
+                                    <option
+                        value="HU"
+                        
+                    >Hungary</option>
+                                    <option
+                        value="IS"
+                        
+                    >Iceland</option>
+                                    <option
+                        value="IN"
+                        
+                    >India</option>
+                                    <option
+                        value="ID"
+                        
+                    >Indonesia</option>
+                                    <option
+                        value="IR"
+                        
+                    >Iran, Islamic Republic of</option>
+                                    <option
+                        value="IQ"
+                        
+                    >Iraq</option>
+                                    <option
+                        value="IE"
+                        
+                    >Ireland</option>
+                                    <option
+                        value="IM"
+                        
+                    >Isle of Man</option>
+                                    <option
+                        value="IL"
+                        selected
+                    >Israel</option>
+                                    <option
+                        value="IT"
+                        
+                    >Italy</option>
+                                    <option
+                        value="JM"
+                        
+                    >Jamaica</option>
+                                    <option
+                        value="JP"
+                        
+                    >Japan</option>
+                                    <option
+                        value="JE"
+                        
+                    >Jersey</option>
+                                    <option
+                        value="JO"
+                        
+                    >Jordan</option>
+                                    <option
+                        value="KZ"
+                        
+                    >Kazakhstan</option>
+                                    <option
+                        value="KE"
+                        
+                    >Kenya</option>
+                                    <option
+                        value="KI"
+                        
+                    >Kiribati</option>
+                                    <option
+                        value="KP"
+                        
+                    >Korea, Democratic People&#039;s Republic of</option>
+                                    <option
+                        value="KR"
+                        
+                    >Korea, Republic of</option>
+                                    <option
+                        value="KW"
+                        
+                    >Kuwait</option>
+                                    <option
+                        value="KG"
+                        
+                    >Kyrgyzstan</option>
+                                    <option
+                        value="LA"
+                        
+                    >Lao People&#039;s Democratic Republic</option>
+                                    <option
+                        value="LV"
+                        
+                    >Latvia</option>
+                                    <option
+                        value="LB"
+                        
+                    >Lebanon</option>
+                                    <option
+                        value="LS"
+                        
+                    >Lesotho</option>
+                                    <option
+                        value="LR"
+                        
+                    >Liberia</option>
+                                    <option
+                        value="LY"
+                        
+                    >Libya</option>
+                                    <option
+                        value="LI"
+                        
+                    >Liechtenstein</option>
+                                    <option
+                        value="LT"
+                        
+                    >Lithuania</option>
+                                    <option
+                        value="LU"
+                        
+                    >Luxembourg</option>
+                                    <option
+                        value="MO"
+                        
+                    >Macau</option>
+                                    <option
+                        value="MK"
+                        
+                    >Macedonia</option>
+                                    <option
+                        value="MG"
+                        
+                    >Madagascar</option>
+                                    <option
+                        value="MW"
+                        
+                    >Malawi</option>
+                                    <option
+                        value="MY"
+                        
+                    >Malaysia</option>
+                                    <option
+                        value="MV"
+                        
+                    >Maldives</option>
+                                    <option
+                        value="ML"
+                        
+                    >Mali</option>
+                                    <option
+                        value="MT"
+                        
+                    >Malta</option>
+                                    <option
+                        value="MH"
+                        
+                    >Marshall Islands</option>
+                                    <option
+                        value="MQ"
+                        
+                    >Martinique</option>
+                                    <option
+                        value="MR"
+                        
+                    >Mauritania</option>
+                                    <option
+                        value="MU"
+                        
+                    >Mauritius</option>
+                                    <option
+                        value="YT"
+                        
+                    >Mayotte</option>
+                                    <option
+                        value="MX"
+                        
+                    >Mexico</option>
+                                    <option
+                        value="FM"
+                        
+                    >Micronesia, Federated States of</option>
+                                    <option
+                        value="MD"
+                        
+                    >Moldova, Republic of</option>
+                                    <option
+                        value="MC"
+                        
+                    >Monaco</option>
+                                    <option
+                        value="MN"
+                        
+                    >Mongolia</option>
+                                    <option
+                        value="ME"
+                        
+                    >Montenegro</option>
+                                    <option
+                        value="MS"
+                        
+                    >Montserrat</option>
+                                    <option
+                        value="MA"
+                        
+                    >Morocco</option>
+                                    <option
+                        value="MZ"
+                        
+                    >Mozambique</option>
+                                    <option
+                        value="MM"
+                        
+                    >Myanmar</option>
+                                    <option
+                        value="NA"
+                        
+                    >Namibia</option>
+                                    <option
+                        value="NR"
+                        
+                    >Nauru</option>
+                                    <option
+                        value="NP"
+                        
+                    >Nepal</option>
+                                    <option
+                        value="NL"
+                        
+                    >Netherlands</option>
+                                    <option
+                        value="NC"
+                        
+                    >New Caledonia</option>
+                                    <option
+                        value="NZ"
+                        
+                    >New Zealand</option>
+                                    <option
+                        value="NI"
+                        
+                    >Nicaragua</option>
+                                    <option
+                        value="NE"
+                        
+                    >Niger</option>
+                                    <option
+                        value="NG"
+                        
+                    >Nigeria</option>
+                                    <option
+                        value="NU"
+                        
+                    >Niue</option>
+                                    <option
+                        value="NF"
+                        
+                    >Norfolk Island</option>
+                                    <option
+                        value="MP"
+                        
+                    >Northern Mariana Islands</option>
+                                    <option
+                        value="NO"
+                        
+                    >Norway</option>
+                                    <option
+                        value="OM"
+                        
+                    >Oman</option>
+                                    <option
+                        value="PK"
+                        
+                    >Pakistan</option>
+                                    <option
+                        value="PW"
+                        
+                    >Palau</option>
+                                    <option
+                        value="PS"
+                        
+                    >Palestinian Territory</option>
+                                    <option
+                        value="PA"
+                        
+                    >Panama</option>
+                                    <option
+                        value="PG"
+                        
+                    >Papua New Guinea</option>
+                                    <option
+                        value="PY"
+                        
+                    >Paraguay</option>
+                                    <option
+                        value="PE"
+                        
+                    >Peru</option>
+                                    <option
+                        value="PH"
+                        
+                    >Philippines</option>
+                                    <option
+                        value="PN"
+                        
+                    >Pitcairn Islands</option>
+                                    <option
+                        value="PL"
+                        
+                    >Poland</option>
+                                    <option
+                        value="PT"
+                        
+                    >Portugal</option>
+                                    <option
+                        value="PR"
+                        
+                    >Puerto Rico</option>
+                                    <option
+                        value="QA"
+                        
+                    >Qatar</option>
+                                    <option
+                        value="RE"
+                        
+                    >Reunion</option>
+                                    <option
+                        value="RO"
+                        
+                    >Romania</option>
+                                    <option
+                        value="RU"
+                        
+                    >Russian Federation</option>
+                                    <option
+                        value="RW"
+                        
+                    >Rwanda</option>
+                                    <option
+                        value="BL"
+                        
+                    >Saint Barthelemy</option>
+                                    <option
+                        value="SH"
+                        
+                    >Saint Helena</option>
+                                    <option
+                        value="KN"
+                        
+                    >Saint Kitts and Nevis</option>
+                                    <option
+                        value="LC"
+                        
+                    >Saint Lucia</option>
+                                    <option
+                        value="MF"
+                        
+                    >Saint Martin</option>
+                                    <option
+                        value="PM"
+                        
+                    >Saint Pierre and Miquelon</option>
+                                    <option
+                        value="VC"
+                        
+                    >Saint Vincent and the Grenadines</option>
+                                    <option
+                        value="WS"
+                        
+                    >Samoa</option>
+                                    <option
+                        value="SM"
+                        
+                    >San Marino</option>
+                                    <option
+                        value="ST"
+                        
+                    >Sao Tome and Principe</option>
+                                    <option
+                        value="A2"
+                        
+                    >Satellite Provider</option>
+                                    <option
+                        value="SA"
+                        
+                    >Saudi Arabia</option>
+                                    <option
+                        value="SN"
+                        
+                    >Senegal</option>
+                                    <option
+                        value="RS"
+                        
+                    >Serbia</option>
+                                    <option
+                        value="SC"
+                        
+                    >Seychelles</option>
+                                    <option
+                        value="SL"
+                        
+                    >Sierra Leone</option>
+                                    <option
+                        value="SG"
+                        
+                    >Singapore</option>
+                                    <option
+                        value="SX"
+                        
+                    >Sint Maarten (Dutch part)</option>
+                                    <option
+                        value="SK"
+                        
+                    >Slovakia</option>
+                                    <option
+                        value="SI"
+                        
+                    >Slovenia</option>
+                                    <option
+                        value="SB"
+                        
+                    >Solomon Islands</option>
+                                    <option
+                        value="SO"
+                        
+                    >Somalia</option>
+                                    <option
+                        value="ZA"
+                        
+                    >South Africa</option>
+                                    <option
+                        value="GS"
+                        
+                    >South Georgia and the South Sandwich Islands</option>
+                                    <option
+                        value="ES"
+                        
+                    >Spain</option>
+                                    <option
+                        value="LK"
+                        
+                    >Sri Lanka</option>
+                                    <option
+                        value="SD"
+                        
+                    >Sudan</option>
+                                    <option
+                        value="SR"
+                        
+                    >Suriname</option>
+                                    <option
+                        value="SJ"
+                        
+                    >Svalbard and Jan Mayen</option>
+                                    <option
+                        value="SZ"
+                        
+                    >Swaziland</option>
+                                    <option
+                        value="SE"
+                        
+                    >Sweden</option>
+                                    <option
+                        value="CH"
+                        
+                    >Switzerland</option>
+                                    <option
+                        value="SY"
+                        
+                    >Syrian Arab Republic</option>
+                                    <option
+                        value="TW"
+                        
+                    >Taiwan</option>
+                                    <option
+                        value="TJ"
+                        
+                    >Tajikistan</option>
+                                    <option
+                        value="TZ"
+                        
+                    >Tanzania, United Republic of</option>
+                                    <option
+                        value="TH"
+                        
+                    >Thailand</option>
+                                    <option
+                        value="TL"
+                        
+                    >Timor-Leste</option>
+                                    <option
+                        value="TG"
+                        
+                    >Togo</option>
+                                    <option
+                        value="TK"
+                        
+                    >Tokelau</option>
+                                    <option
+                        value="TO"
+                        
+                    >Tonga</option>
+                                    <option
+                        value="TT"
+                        
+                    >Trinidad and Tobago</option>
+                                    <option
+                        value="TN"
+                        
+                    >Tunisia</option>
+                                    <option
+                        value="TR"
+                        
+                    >Turkey</option>
+                                    <option
+                        value="TM"
+                        
+                    >Turkmenistan</option>
+                                    <option
+                        value="TC"
+                        
+                    >Turks and Caicos Islands</option>
+                                    <option
+                        value="TV"
+                        
+                    >Tuvalu</option>
+                                    <option
+                        value="UG"
+                        
+                    >Uganda</option>
+                                    <option
+                        value="UA"
+                        
+                    >Ukraine</option>
+                                    <option
+                        value="AE"
+                        
+                    >United Arab Emirates</option>
+                                    <option
+                        value="GB"
+                        
+                    >United Kingdom</option>
+                                    <option
+                        value="US"
+                        
+                    >United States</option>
+                                    <option
+                        value="UM"
+                        
+                    >United States Minor Outlying Islands</option>
+                                    <option
+                        value="UY"
+                        
+                    >Uruguay</option>
+                                    <option
+                        value="UZ"
+                        
+                    >Uzbekistan</option>
+                                    <option
+                        value="VU"
+                        
+                    >Vanuatu</option>
+                                    <option
+                        value="VE"
+                        
+                    >Venezuela</option>
+                                    <option
+                        value="VN"
+                        
+                    >Vietnam</option>
+                                    <option
+                        value="VG"
+                        
+                    >Virgin Islands, British</option>
+                                    <option
+                        value="VI"
+                        
+                    >Virgin Islands, U.S.</option>
+                                    <option
+                        value="WF"
+                        
+                    >Wallis and Futuna</option>
+                                    <option
+                        value="EH"
+                        
+                    >Western Sahara</option>
+                                    <option
+                        value="YE"
+                        
+                    >Yemen</option>
+                                    <option
+                        value="ZM"
+                        
+                    >Zambia</option>
+                                    <option
+                        value="ZW"
+                        
+                    >Zimbabwe</option>
+                            </select>
+        </div>
+    </div>
+
+            <div class="form-group">
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-rounded">Complete Registration</button>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="text-center col-md-8 col-md-offset-2">
+            <p>Have an account?</p>
+            <a href="http://comroads.com/login" class="btn btn-primary btn-rounded">&nbsp;&nbsp;Login&nbsp;&nbsp;</a>
+        </div>
+    </div>
+</form>            </div>            
+        </div>
+    </div>
+</div>            
+                            <div class="modal fade" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header no-border">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>                
+            </div>
+            <div class="modal-body">
+                <h4 class="Content__Heading text-center"><span>Login</span></h4>
+                <div class="alert alert-info text-center hidden"></div>
+
+<form action="http://comroads.com/login" method="post" class="form-horizontal gutter-5 login-form">
+    <input type="hidden" name="_token" value="3cK7SQXWRTCC2oRpUaWeHYVFu13lwCOUsElsU26x">
+
+    <input type="hidden" name="birth_day" value="" id="birthDay">
+
+    <div class="form-group">
+        <label class="control-label col-md-2 col-sm-2 col-xs-12">Username</label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <input type="text" name="username" value="" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2 col-sm-2 col-xs-12">Password</label>
+        <div class="col-md-8 col-sm-8 col-xs-12">
+            <input type="password" name="password" value="" class="form-control" placeholder="">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-2 col-sm-offset-2">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="checkbox no-padding">
+                        <label>
+                            <input type="checkbox" name="remember" >
+                            Remember me
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                    <a href="http://comroads.com/password/email">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="form-group">
+        <div class="text-center col-md-8 col-md-offset-2">
+            <button type="submit" class="btn btn-primary btn-rounded">&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;</button>
+        </div>
+    </div>
+    <div class="form-group">
+    <div class="text-center col-md-8 col-md-offset-2">
+        <h4 class="Content__Heading text-center"><span>Or Login with</span></h4>
+        <div class="Social__Login">
+            <a href="http://comroads.com/auth/facebook"><i class="fa fa-facebook-square facebook"></i></a>
+            <a href="http://comroads.com/auth/twitter"><i class="fa fa-twitter-square twitter"></i></a>
+                        <a href="http://comroads.com/auth/google"><i class="fa fa-google-plus-square google"></i></a>
+        </div>
+    </div>
+</div>    <div class="form-group">
+        <div class="text-center col-md-8 col-md-offset-2">
+            <p>Don&#039;t have account?</p>
+            <a href="http://comroads.com/signup" class="btn btn-primary btn-rounded">Sign Up for Free</a>
+        </div>
+    </div>
+</form>            </div>            
+        </div>
+    </div>
+</div>            
+                    
+
+                    <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//comroads.com/pk/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//comroads.com/pk/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>        
+
+<script type="text/javascript">
+    var _mfq = _mfq || [];
+    (function () {
+    var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/2fbcc7ee-556b-4dfd-9e01-f2ea636456d4.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73114398-1', 'auto');
+  ga('send', 'pageview');
+</script>
+                    
+        <script type="text/javascript">
+        // <![CDATA[
+        var google_conversion_id = 955347249;
+        var google_conversion_label = "L68eCKDSjmkQseLFxwM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        // ]]>
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/955347249/?value=1.00&amp;currency_code=USD&amp;label=L68eCKDSjmkQseLFxwM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+
+    
+    <script>setInterval(function(){var e=window.XMLHttpRequest?new XMLHttpRequest:new ActiveXObject('Microsoft.XMLHTTP');e.open('GET','http://comroads.com/genealabs/laravel-caffeine/drip',!0);e.setRequestHeader('X-Requested-With','XMLHttpRequest');e.send();}, 300000);</script></body>
+</html>

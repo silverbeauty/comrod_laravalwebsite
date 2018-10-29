@@ -1,0 +1,58 @@
+<?php
+
+return [
+    'site_name' => 'Comroads.com',
+    'domain_name' => 'www.comroads.com',
+    'cancel' => 'Cancel',
+    'close' => 'Close',
+    'name' => 'Name',
+    'email' => 'Email',
+    'reasons' => 'Reasons',
+    'day' => 'Day',
+    'month' => 'Month',
+    'year' => 'Year',
+    'save' => 'Save',
+    'saving' => 'Saving...',
+    'select_country' => 'Select country',
+    'success' => 'Success',
+    'changes_saved' => 'Your changes has been saved successfully',
+    'thank_you' => 'Thank you!',
+    'we_will_take_action' => 'We will take action to this as soon as possible.',
+    'upload_photo' => 'Upload Photo',
+    'upload_video' => 'Upload Video',
+    'video_upload_thank_you_message' => 'Thank you for uploading your video to Comroads. Your video is being processed and will be available for viewing in the next few minutes and will be available at: :url<br/>
+        The video will also appear on the map within the next 10 minutes.<br/>
+        Feel free to share it and invite others to view it.<br/>',
+    'video_embed_thank_you_message' => 'Thank you for uploading your video to Comroads. Your video is available at: :url<br/>
+        The video will also appear on the map within the next 10 minutes.<br/>
+        Feel free to share it and invite others to view it.<br/>',
+    'photo_upload_thank_you_message' => 'Thank you for uploading your photo to Comroads. It is available at: :url <br/>
+                                        The photo will also appear on the map within the next 10 minutes.<br/>
+                                        Feel free to share it and invite others to view it.<br/>',
+    'video_is_being_process' => 'The video is being processed and will be available for viewing in the next few minutes.',
+    'change_video' => 'Change Video',
+    'or_embed_video' => 'or Embed Video',
+    'youtube' => 'YouTube',
+    'vidme' => 'Vidme',
+    'vidme_url' => 'Vidme URL',
+    'drag_me' => 'Drag me to change location!',
+    'map_no_geometry' => 'Autocomplete\'s returned place contains no geometry',
+    'user_auto_approve_message_subject' => 'Autoapprove Status',
+    'user_auto_approve_message_body' => 'We have given you autoapprove status.',
+    'no_marker_message' => 'No videos to show, please zoom out of map or change filtering to view more videos.',
+    'switch_to_old_version' => 'Switch to Old Version',
+    'switch_to_new_version' => 'Switch to New Version',
+    'live_feed' => 'Live Feed',
+    'new' => 'new',
+    'images_will_refresh_in' => 'Images will refresh in :seconds seconds.',
+    'search' => 'Search',
+    'private-content-info' => 'This is a private :type',
+    'close-map' => 'Close Map',
+    'duration' => 'Duration',
+    'worldwide' => 'Worldwide',
+    'show_map' => 'Show Map',
+    'watched' => 'Watched',
+    'view-more' => 'View More',
+    'thank-you-for-signing-up' => 'Thank you for signing up.',
+    'thank-you-for-signing-up-text' => 'You will be redirected to: <a href=":url">:url</a> in <span id="counter">10</span> seconds',    
+];

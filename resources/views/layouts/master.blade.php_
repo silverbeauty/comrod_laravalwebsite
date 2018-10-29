@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="@yield('description')">
+        <meta name="author" content="">
+        <meta name="csrf_token" content="{{ csrf_token() }}">
+        <link rel="icon" href="{{ asset('images/favicon.ico') }}">
+        <title>@yield('title') - Dash Cam Videos and Bad Drivers</title>        
+        <link href="/css/app.css" rel="stylesheet">
+    </head>
+    <body class="@yield('body_class')" id="pjax-container">
+        @include('partials.header')
+        @yield('content')        
+        @include('partials.footer')
+        
+        <script src="/js/app.js"></script>
+        @yield('external_js')
+
+        @if (!$signed_in)
+            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+            <script type="text/javascript">
+            var onloadCallback = function() {            
+                grecaptcha.render('loginRecaptcha', {
+                    'sitekey' : '{{ config('services.google.recaptcha.public_key') }}'
+                });
+                grecaptcha.render('signupRecaptcha', {
+                    'sitekey' : '{{ config('services.google.recaptcha.public_key') }}'
+                });
+            };
+            </script>
+        @endif
+
+        @include('partials.flash')
+        @yield('modals')
+        @yield('underscore')
+
+        @if (!$signed_in && $route_name != 'auth::getSignup')
+            @include('modals.signup')
+        @endif
+
+        @if (!$signed_in && $route_name != 'auth::getLogin')
+            @include('modals.login')
+        @endif
+
+        @if ($signed_in && !$user->verified_email)
+            @include('modals.change_email')
+        @endif
+
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="//www.comroads.com/pk/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <noscript><p><img src="//www.comroads.com/pk/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>        
+    </body>
+</html>

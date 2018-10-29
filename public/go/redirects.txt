@@ -1,0 +1,19 @@
+wr1-ebay,https://ebay.to/2K8Cc9A
+wr1-aliexpress, http://s.click.aliexpress.com/e/uFU3VBY
+wr1-amazonusa, https://amzn.to/2E5ZT3a
+wr1-amazonuk, https://amzn.to/2OcPDe2
+yi-lightinthebox, http://shrsl.com/109ze
+yi-ebay, http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575387135&toolid=10001&campid=5338320598&customid=&icep_item=162163324816&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg
+yi-aliexpress, http://s.click.aliexpress.com/e/CxSmE80
+yi-joybuy, http://cps.joybuy.com/union/click?p=eyJzaXRlIjoiZW4iLCJ1aWQiOiJBZmY1MzMiLCJsaW5rIjoiaHR0cHM6Ly93d3cuam95YnV5LmNvbS8xMTQyNDQxLmh0bWwiLCJ0eXBlIjoiNiJ9
+yi-amazonusa, https://amzn.to/2E4Wpy5
+yi-amazonuk, https://amzn.to/2O9J2kS
+a129-ebay, http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=2&pub=5575387135&toolid=10001&campid=5338396026&customid=&icep_item=142821063986&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg
+a129-aliexpress, http://s.click.aliexpress.com/e/ctCt6Xji
+a129-amazonusa, https://amzn.to/2Rult4h
+a129-amazonuk, https://amzn.to/2ObGx1q
+yiultra-ebay, http://rover.ebay.com/rover/1/711-53200-19255-0/1?ff3=4&pub=5575387135&toolid=10001&campid=5338311436&customid=&mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FYI-2-7K-Ultra-Dash-Camera-2-7-Wifi-Car-DVR-MEMS-3-axis-G-Sensor-Voice-Control%2F122801434787
+yiultra-aliexpress, http://s.click.aliexpress.com/e/3RrjMBu
+yiultra-lightinthebox, http://www.anrdoezrs.net/links/8126110/type/dlg/https://www.lightinthebox.com/p/original-xiaomi-xiao-yi-car-dvr-king-version-2-7k-resolution-voice-command-wifi140-wide-angle_p6377914.html?prm=1.5.1.1
+androidapp-fbvidad, http://play.google.com/store/apps/details?id=com.app.comroads.comroads&referrer=utm_campaign=fb-vidad&utm_source=facebook
+lander, http://play.google.com/store/apps/details?id=com.app.comroads.comroads&referrer=utm_campaign=lander&utm_source=lander

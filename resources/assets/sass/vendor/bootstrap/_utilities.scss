@@ -1,0 +1,170 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+.clearfix {
+  @include clearfix;
+}
+.center-block {
+  @include center-block;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  @include text-hide;
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.hidden {
+  display: none !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.affix {
+  position: fixed;
+}
+.fs14 {
+  font-size: 14px !important;
+}
+.fs12 {
+  font-size: 12px !important;
+}
+.no-border {
+  border: none !important;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.no-padding-top {
+  padding-top: 0 !important;
+}
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+.no-padding-right {
+  padding-right: 0 !important;
+}
+.no-padding-left {
+  padding-left: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+.no-margin-top {
+  margin-top: 0 !important;
+}
+.padding-5 {
+  padding: 5px !important;
+}
+.padding-10 {
+  padding: 10px !important;
+}
+.padding-bottom-5 {
+  padding-bottom: 5px !important;
+}
+.padding-left-5 {
+  padding-left: 5px !important;
+}
+.padding-left-10 {
+  padding-left: 10px !important;
+}
+.padding-left-15 {
+  padding-left: 15px !important;
+}
+.padding-right-5 {
+  padding-right: 5px !important;
+}
+.padding-right-10 {
+  padding-right: 10px !important;
+}
+.padding-right-15 {
+  padding-right: 15px !important;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.margin-top-15 {
+  margin-top: 15px !important;
+}
+
+.text-default {
+  color: $gray;
+}
+.position-relative {
+    position: relative;
+}
+.position-absolute {
+    position: absolute;
+}
+.inline-block {
+  display: inline-block;
+}
+.fa-facebook-square {
+    color: $fb-color;
+    &:hover {
+        color: $fb-hover-color;
+    }
+}
+.fa-twitter-square {
+    color: $twitter-color;
+    &:hover {
+        color: $twitter-hover-color;
+    }
+}
+.fa-google-plus-square {
+    color: $google-color;
+    &:hover {
+        color: $google-hover-color;
+    }
+}
+.fa-tumblr-square {
+    color: $tumblr-color;
+    &:hover {
+        color: $tumblr-hover-color;
+    }
+}
+.v-top {
+  vertical-align: top;
+}
+.v-middle {
+  vertical-align: middle !important;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.z-index-6 {
+  z-index: 6 !important;
+}
